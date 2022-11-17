@@ -11,6 +11,8 @@
 		A19E065F2926850A00C7E55D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E065E2926850A00C7E55D /* ContentView.swift */; };
 		A19E06612926850B00C7E55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19E06602926850B00C7E55D /* Assets.xcassets */; };
 		A19E06642926850B00C7E55D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19E06632926850B00C7E55D /* Preview Assets.xcassets */; };
+		A19E068B29269B3600C7E55D /* CatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E068A29269B3600C7E55D /* CatData.swift */; };
+		A19E068F29269F2B00C7E55D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E068E29269F2B00C7E55D /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A19E065E2926850A00C7E55D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A19E06602926850B00C7E55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19E06632926850B00C7E55D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A19E068A29269B3600C7E55D /* CatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatData.swift; sourceTree = "<group>"; };
+		A19E068E29269F2B00C7E55D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		A19E065B2926850A00C7E55D /* cats */ = {
 			isa = PBXGroup;
 			children = (
+				A19E068A29269B3600C7E55D /* CatData.swift */,
 				A19E065C2926850A00C7E55D /* catsApp.swift */,
 				A19E065E2926850A00C7E55D /* ContentView.swift */,
+				A19E068E29269F2B00C7E55D /* Network.swift */,
 				A19E06602926850B00C7E55D /* Assets.xcassets */,
 				A19E06622926850B00C7E55D /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				A19E065F2926850A00C7E55D /* ContentView.swift in Sources */,
 				A19E065D2926850A00C7E55D /* catsApp.swift in Sources */,
+				A19E068F29269F2B00C7E55D /* Network.swift in Sources */,
+				A19E068B29269B3600C7E55D /* CatData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
